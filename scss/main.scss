@@ -1,0 +1,18 @@
+body {
+  background-color: tomato;
+}
+
+// nesting
+body {
+  .container {
+    h1 {
+      background-color: blue;
+    }
+  }
+}
+
+.card {
+  .btn {
+    font-size: 2rem;
+  }
+}
