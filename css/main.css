@@ -1,8 +1,9 @@
-/* Kintamieji */
-:root {
-  --main-color: #008cba;
-  --main-text-color: #777;
-  --mc: var(--main-color);
+@import 'reset.css';
+@import 'vars.css';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css');
+
+h1 {
+  color: var(--main-color);
 }
 
 .btn {
@@ -38,7 +39,13 @@
   border-radius: 5px;
   text-align: center;
   padding: 2rem;
+  background-color: var(--main-bg-color);
 }
+.card.card--dark {
+  color: var(--main-bg-color);
+  background-color: #333;
+}
+
 .card .card__title {
   font-size: 2.5rem;
   line-height: 1;
